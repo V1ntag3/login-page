@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-color: #191970;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+a,label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #08558B;
+}
+/*login*/
+#caixa-login {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    padding: 20px 30px;
+    margin-top: 8vh;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+    
+}
+label{
+    font-weight: bold;
+}
+input, #caixa-register{
+    border: 2px solid #323232;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+input:focus, #caixa-register:focus{
+    border: 2px solid #08558b;
+}
+#forgot-password{
+    text-align: right;
+    display: block;
+}
+input[type="submit"], #caixa-register {
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    color: aliceblue;
+    background-color: #08558b;
+}
+input[type="submit"]:hover, #caixa-register:hover{
+    background-color: #1b2231;
+    transition: 1s;
+}
+#caixa-social, #caixa-social p{
+    margin-bottom: 20px;
+}
+#caixa-social i{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: white;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.fa-facebook-f{
+    background-color: #3b5998;
+}
+.fa-linkedin-in{
+    background-color: #0077b5;
+}
+#caixa-register{
+    display: block;
+padding: 10px;}
